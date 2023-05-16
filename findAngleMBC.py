@@ -25,12 +25,7 @@ a_len = int(input())
 b_len = int(input())
 
 print(str(int(round(degrees(atan2(a_len, b_len))))) + '\u00B0'.encode('utf-8').decode('utf-8'))
-# print atan2, find the arctangent of y/x in radians of length_a and length_b, as degrees, rounded to whole as integer, concat this to degrees symbol in utf encoded then decoded to permit string concat. 
-
-
-# The atan2() method in Python is a built-in function that returns a numeric value between – and representing the angle of an (x, y) point and the positive x-axis.
-# y/x in radians and then convert to degrees?
-# The parameters should be float values, and the values may be either positive or negative
+# find the arctangent of length_a / length_b in radians, as degrees, rounded to whole as integer, concat this with degrees symbol, in utf-8, encoded then decoded, to permit string concat. 
 
 
 
